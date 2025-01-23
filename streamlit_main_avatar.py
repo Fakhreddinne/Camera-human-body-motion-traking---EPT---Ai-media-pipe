@@ -111,9 +111,9 @@ if st.sidebar.button("Start Processing"):
             frames.append(img_)
             
 
-            if time.time() - start_time > 10 or cv2.waitKey(1) & 0xFF == ord('q'):
-                print("3")
-                break
+            # if time.time() - start_time > 10 or cv2.waitKey(1) & 0xFF == ord('q'):
+            #     print("3")
+            #     break
             
         print("4")
         cap.release()
