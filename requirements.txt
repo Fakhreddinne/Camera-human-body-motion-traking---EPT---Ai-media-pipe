@@ -1,3 +1,3 @@
+opencv-python-headless
 streamlit
-opencv-python
 numpy
