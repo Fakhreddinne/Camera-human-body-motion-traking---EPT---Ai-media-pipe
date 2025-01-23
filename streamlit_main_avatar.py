@@ -117,7 +117,7 @@ if st.sidebar.button("Start Processing"):
             
         print("4")
         cap.release()
-        cv2.destroyAllWindows()
+        #cv2.destroyAllWindows()
         st.success("Processing completed!")
 
         # Save videos
